@@ -7,7 +7,7 @@ A Python-based portfolio analysis and optimization tool that uses **Monte Carlo 
 ## Overview
 
 The Portfolio Risk Engine:
-- Downloads real historical price data (yFinance API)
+- Downloads real historical price data (yfinance API)
 - Converts prices into daily returns
 - Simulates thousands of random portfolios (in this project - 5000)
 - Evaluates risk and return metrics
