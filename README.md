@@ -50,6 +50,7 @@ portfolio-risk-engine/
 │
 ├── make_prices_csv.py     # Downloads and prepares price data
 ├── requirements.txt
+├── LICENSE
 └── README.md
 ```
 
