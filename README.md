@@ -1,13 +1,13 @@
 # Portfolio Risk Engine ⚙️
 
-A Python-based portfolio analysis and optimization tool that uses **Monte Carlo simulation** to construct and evaluates a user-defined number of portfolios using historical market data (yFinance API), selecting the allocation that maximizes the **Sharpe ratio** (measures unit of return per unit of risk).
+A Python-based portfolio analysis and optimization tool that uses **Monte Carlo simulation** to construct and evaluates a user-defined number of portfolios using historical market data (yfinance API), selecting the allocation that maximizes the **Sharpe ratio** (measures unit of return per unit of risk).
 
 ---
 
 ## Overview
 
 The Portfolio Risk Engine:
-- Downloads real historical price data (yfinance API)
+- Downloads real historical price data
 - Converts prices into daily returns
 - Simulates thousands of random portfolios (in this project - 5000)
 - Evaluates risk and return metrics
